@@ -10,3 +10,4 @@ Future additions to include:
 1. blog
 2. restyle elements
 3. less pink color scheme
+4. Adjust Navbar text - replace with logo. 
