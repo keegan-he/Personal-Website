@@ -1,1 +1,1 @@
-cat templates/top.html content/index.html templates/bottom.html > docs/index.html
+cat templates/top.html content/index.html templates/bottom.html > docs/index.html docs/about.html projects.html photography.html music.html contact.html
