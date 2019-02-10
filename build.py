@@ -9,5 +9,7 @@ open("docs/index.html", "w+").write(combined)
 #To do: 
 # 1. copy about.html, contact.html to content directory.- DONE
 # 2. remove top and bottom from content/photography.html (DONE), content/about.html (DONE), content/projects.html (DONE)
-# and music.html (DONE) content/contact.html. 
+# and music.html (DONE) content/contact.html (DONE). 
+
+#TO BE DONE:
 #3. write additional python and bash to combine above HTML files with top.html and bottom.html
