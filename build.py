@@ -1,10 +1,16 @@
+#Combine top middle bottom for index.html
 start = open("templates/top.html").read()
 middle = open("content/index.html").read()
 end = open("templates/bottom.html").read()
 combined = start + middle + end
 open("docs/index.html", "w+").write(combined)
 
-
+#combine top middle bottom for about.html
+start = open("templates/top.html").read()
+about = open("content/about.html").read()
+end = open("templates/bottom.html").read()
+new_about_page = start + about + end
+open("docs/about.html", "w+".write(new_about_page)
 
 #To do: 
 # 1. copy about.html, contact.html to content directory.- DONE
