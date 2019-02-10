@@ -12,4 +12,4 @@ open("docs/index.html", "w+").write(combined)
 # and music.html (DONE) content/contact.html (DONE). 
 
 #TO BE DONE:
-#3. write additional python and bash to combine above HTML files with top.html and bottom.html
+#3. write additional bash and python code to combine above HTML files with top.html and bottom.html
