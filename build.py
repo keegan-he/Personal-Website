@@ -1,4 +1,4 @@
-print("test top of python script")
+
 # Combine top middle bottom for index.html
 start = open("templates/top.html").read()
 middle = open("content/index.html").read()
@@ -21,5 +21,3 @@ open("docs/about.html", "w+".write(new_about_page)
 
 # TO BE DONE:
 # 3. write additional bash(DONE) and python code to combine above HTML files with top.html and bottom.html
-#
-print("test bottom part of python script")
