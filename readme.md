@@ -18,3 +18,6 @@ https://colorhunt.co/palette/137170
 2. Restyle elements
 3. Adjust color scheme
 4. Blog
+
+
+![meow](kate.png)
