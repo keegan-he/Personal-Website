@@ -7,13 +7,13 @@ To use the static site generator, run either build.sh or the build.py script and
 
 ### Color scheme: 
 https://colorhunt.co/palette/137170
-#35234b
-#5c3b6f
-#d84c73
-#ff8484
+* 35234b
+* 5c3b6f
+* d84c73
+* ff8484
 
 
-Future work:
+### Future work:
 1. Modify Navbar and create a 'Home' button.
 2. Restyle elements
 3. Adjust color scheme
