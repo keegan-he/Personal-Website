@@ -1,23 +1,29 @@
+print("top test")
+top_temp = open("templates/top.html").read()
+content = open("content/index.html").read()
+bottom_temp = open("templates/bottom.html").read()
+index_html = top_temp + content + bottom_temp
+open("docs/index.html", "w+").write(index_html)
 
-# Combine top middle bottom for index.html
-start = open("templates/top.html").read()
-middle = open("content/index.html").read()
-end = open("templates/bottom.html").read()
-combined = start + middle + end
-open("docs/index.html", "w+").write(combined)
+content = open("content/about.html").read()
+about = top_temp + content + bottom_temp
+open("docs/about.html", "w+").write(about)
 
-# combine top middle bottom for about.html
-start = open("templates/top.html").read()
-about = open("content/about.html").read()
-end = open("templates/bottom.html").read()
-new_about_page = start + about + end
-open("docs/about.html", "w+".write(new_about_page)
+content = open("content/contact.html").read()
+contact = top_temp + content + bottom_temp
+open("docs/contact.html", "w+").write(contact)
 
-# combine top middle bottom for photography.html
-# To do:
-# 1. copy about.html, contact.html to content directory.- DONE
-# 2. remove top and bottom from content/photography.html (DONE), content/about.html (DONE), content/projects.html (DONE)
-# and music.html (DONE) content/contact.html (DONE).
+content = open("content/projects.html").read()
+projects = top_temp + content + bottom_temp
+open("docs/projects.html", "w+").write(projects)
 
-# TO BE DONE:
-# 3. write additional bash(DONE) and python code to combine above HTML files with top.html and bottom.html
+content = open("content/music.html").read()
+music = top_temp + content + bottom_temp
+open("docs/music.html", "w+").write(music)
+
+content = open("content/photography.html").read()
+photography = top_temp + content + bottom_temp
+open("docs/photography.html", "w+").write(photography)
+
+
+print("bottom test")
