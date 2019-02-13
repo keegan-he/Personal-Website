@@ -17,4 +17,4 @@ https://colorhunt.co/palette/137170
 * d84c73
 * ff8484
 
-![meow](kate.png)
+![meow](kate.png =250x)
