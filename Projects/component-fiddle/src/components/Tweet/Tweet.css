@@ -1,0 +1,30 @@
+.tweet {
+    font-size: 2vh;
+    height: 300px;
+    width: 300px;
+    background:rgb(196, 92, 92);
+    border: .5px solid rgb(34, 34, 34);
+    padding: 1vh;
+    border-radius: 30px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    transition: .5s;
+    align-items: center;
+    justify-content: center;
+
+    
+  }
+
+
+  .tweet:hover {
+    font-size: 2vh;
+    background-color: #634cd7;
+    transition:
+        font-style .1s,
+        font-size .2s,
+        background-color .8s,
+        padding-left 3s;
+
+}
